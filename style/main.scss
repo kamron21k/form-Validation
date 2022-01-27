@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.form-cont{
+    position: relative;
+    
+    .i{
+        position: absolute;
+        top:  44px;
+        right: 8px;
+        visibility: hidden;
+    }
+    .i2{
+        position: absolute;
+        top:  44px;
+        right: 8px;
+        visibility: hidden;
+    }
+    // .fa-eye{
+    //     position: absolute;
+    //     top:  44px;
+    //     right: 8px;
+    // }
+    // .fa-eye-slash{
+    //     position: absolute;
+    //     top:  44px;
+    //     right: 8px;
+    // }
+    small{
+        visibility: hidden;
+        color: rgb(255, 45, 45);
+    }
+}
+
+.success{
+    input{
+        border:  2px solid rgb(27, 212, 27);
+    }
+    .i{
+        visibility: visible;
+        color: rgb(27, 212, 27);
+    }
+}
+
+.unsuccess{
+    input{
+        border:  2px solid rgb(255, 45, 45);
+    }
+    .i2{
+        visibility: visible;
+        color: rgb(219, 39, 39);
+    }
+}
